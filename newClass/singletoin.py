@@ -1,5 +1,7 @@
 #encoding:utf-8
 
+
+
 class Singleton(object):
 
     _singleton = {}  #定义该类的一个属性，这个类的所有创建的对象都会拥有

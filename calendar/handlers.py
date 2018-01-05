@@ -24,7 +24,7 @@ def getDaysOfWeek(date1):
 
     return dayOfRemainder
 
-def printCanlendar(year,month,day,dayOfRemainder):
+def printCanlendar(year,month,dayOfRemainder):
 
     if month in [1,3,5,7,8,10,12]:
         listDay = ListDays[:]
@@ -70,9 +70,7 @@ if __name__ == '__main__':
     month = int(month)
     date1 = datetime.date(year,month,01)
     dayOfRemainder = getDaysOfWeek(date1)
-    print ('----------------------------')
-    print (month,type(month))
-    printCanlendar(year,month,day,dayOfRemainder)
+    printCanlendar(year,month,dayOfRemainder)
 
 
 
